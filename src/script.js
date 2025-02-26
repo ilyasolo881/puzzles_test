@@ -30,9 +30,7 @@ for (let i = 0; i < PUZZLES.length; i++) {
       break;
     }
 
-    const PUZZLE_NEXT_INDEX = PUZZLES_COPPY.findIndex(
-      (PUZZLE_CURRENT) => PUZZLE_CURRENT === PUZZLE_NEXT
-    );
+    const PUZZLE_NEXT_INDEX = PUZZLES_COPPY.indexOf(PUZZLE_NEXT);
 
     TEST_ARR.push(PUZZLE_NEXT);
     PUZZLES_COPPY.splice(PUZZLE_NEXT_INDEX, 1);
