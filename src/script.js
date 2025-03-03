@@ -50,6 +50,9 @@ function LongestPuzzlesCombination(StringOfPuzzlesParts) {
   return RESULT_STRING;
 }
 
-console.log(
-  `Longest puzzles combination: ${LongestPuzzlesCombination(PUZZLES_PARTS)}`
-);
+const longestPuzzle = LongestPuzzlesCombination(PUZZLES_PARTS);
+const longestPuzzleDiv = document.querySelector(".puzzle__text");
+
+console.log(`Longest puzzles combination: ${longestPuzzle}`);
+
+longestPuzzleDiv.innerHTML = `Longest puzzles combination: ${longestPuzzle}`;
