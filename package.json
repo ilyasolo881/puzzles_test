@@ -2,10 +2,7 @@
   "name": "puzzles_test",
   "version": "1.0.0",
   "description": "Simple App to solve numeric puzzles",
-  "main": "sctipt.js",
-  "scripts": {
-    "start": "node server.js"
-  },
+  "main": "script.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ilyasolo881/puzzles_test.git"
